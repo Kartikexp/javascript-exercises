@@ -20,3 +20,12 @@ We expect commits to:
 * Follow [Tim Pope's Guide to Commit
   Messages](http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html)
   * Provide technical analysis of the code
+<script>
+    function displayTime(){
+    let time = new Date();
+    console.log(time);
+    document.getElementById('time').innerHTML=time;
+    }
+    setInterval(displayTime , 1000)
+</script>
+// THIS IS A WORKING CLOCK IN JAVASCRIPT THAT SHOWS PERFECT TIME . ITS IMPORTANT TO KNOW THE POWER OF JAVASCRIPT WHICH CAN ENHANCE UR WEB DESIGNING AND MAKE U LOOK PROFESSIONAL
